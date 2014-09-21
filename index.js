@@ -7,7 +7,7 @@ module.exports = function (stylecow) {
 				var search = fn.toString();
 
 				fn.content.forEach(function (replace) {
-					selector.insertBefore(stylecow.css.Selector.create(value.replace(search, replace)));
+					selector.insertBefore(stylecow.Selector.create(value.replace(search, replace)));
 				});
 
 				selector.remove();
