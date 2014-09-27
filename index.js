@@ -1,5 +1,6 @@
 module.exports = function (stylecow) {
-	return {
+
+	stylecow.addTask({
 		"Function": {
 			":matches": function (fn) {
 				var selector = fn.ancestor('Selector');
@@ -13,5 +14,5 @@ module.exports = function (stylecow) {
 				selector.remove();
 			}
 		}
-	}
+	});
 };
