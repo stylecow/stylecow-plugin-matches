@@ -1,9 +1,9 @@
 stylecow plugin matches
 =======================
 
-Stylecow plugin to add support for :matches() selector function to all browsers
+Stylecow plugin to add support for the selector `:matches()` in all browsers
 
-More info about :matches() (available in CSS Selectors Level 4): http://www.w3.org/TR/2011/WD-selectors4-20110929/#matches
+More info [available in CSS Selectors Level 4](http://www.w3.org/TR/2011/WD-selectors4-20110929/#matches)
 
 You write:
 
