@@ -6,7 +6,7 @@ module.exports = function (stylecow) {
 			name: ':matches'
 		},
 		fn: function (fn) {
-			var selector = fn.parent({type: 'Selector'});
+			var selector = fn.parent('Selector');
 			var value = selector.toString();
 			var search = fn.toString();
 
