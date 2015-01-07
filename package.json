@@ -1,7 +1,7 @@
 {
 	"name": "stylecow-plugin-matches",
 	"description": "Stylecow plugin to add support for :matches() selector function to all browsers",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"author": "Oscar Otero <oom@oscarotero.com>",
 	"homepage": "https://github.com/stylecow/stylecow-plugin-matches",
 	"bugs": "https://github.com/stylecow/stylecow-plugin-matches/issues",
