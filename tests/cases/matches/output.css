@@ -1,0 +1,9 @@
+body h1, body h2, body h3, body h4 {
+	color: blue;
+}
+p.a, p.b {
+	color: red;
+}
+div.a span, div.a strong, div.b span, div.b strong {
+	color: green;
+}

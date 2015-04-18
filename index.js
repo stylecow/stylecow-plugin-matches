@@ -2,16 +2,16 @@ module.exports = function (stylecow) {
 
 	stylecow.addTask({
 		filter: {
-			type: 'Function',
-			name: ':matches'
+			type: 'PseudoClass',
+			name: 'matches'
 		},
 		fn: function (fn) {
-			var selector = fn.parent('Selector');
+			var selector = fn.getParent('Selector');
 			var value = selector.toString();
 			var search = fn.toString();
 
 			fn.forEach(function (replace) {
-				selector.before(stylecow.Selector.createFromString(value.replace(search, replace.toString())));
+				selector.before(stylecow.parse(value.replace(search, replace.toString()), 'Selector'));
 			});
 
 			selector.remove();

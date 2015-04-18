@@ -1,0 +1,9 @@
+body :matches(h1, h2, h3, h4) {
+	color: blue;
+}
+p:matches(.a, .b) {
+	color: red;
+}
+div:matches(.a, .b) :matches(span, strong) {
+	color: green;
+}

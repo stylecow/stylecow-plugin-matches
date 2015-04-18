@@ -1,13 +1,19 @@
 {
 	"name": "stylecow-plugin-matches",
 	"description": "Stylecow plugin to add support for :matches() selector function to all browsers",
-	"version": "3.0.0",
+	"version": "4.0.0",
 	"author": "Oscar Otero <oom@oscarotero.com>",
 	"homepage": "https://github.com/stylecow/stylecow-plugin-matches",
 	"bugs": "https://github.com/stylecow/stylecow-plugin-matches/issues",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/stylecow/stylecow-plugin-matches.git"
+	},
+	"devDependencies": {
+		"stylecow-parser": "2.*"
+	},
+	"scripts": {
+		"test": "mocha tests/cases.js"
 	},
 	"main": "index.js",
 	"license": "MIT"
