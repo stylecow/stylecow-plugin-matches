@@ -39,4 +39,4 @@ h1 em.one, h1 em.two, h1 strong.one, h1 strong.two {
 }
 ```
 
-More demos in [the tests folder](https://github.com/stylecow/stylecow-plugin-import/tree/master/tests/cases)
+More demos in [the tests folder](https://github.com/stylecow/stylecow-plugin-matches/tree/master/tests/cases)
