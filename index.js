@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = function (stylecow) {
 
 	stylecow.addTask({
@@ -6,12 +8,12 @@ module.exports = function (stylecow) {
 			name: 'matches'
 		},
 		fn: function (fn) {
-			var selector = fn.getParent('Selector');
-			var value = selector.toString();
-			var search = fn.toString();
+			var selector = fn.getParent('Selector'),
+				value = selector.toString(),
+				search = fn.toString();
 
 			fn.forEach(function (replace) {
-				selector.before(stylecow.parse(value.replace(search, replace.toString()), 'Selector'));
+				selector.codeBefore(value.replace(search, replace.toString()), 'Selector');
 			});
 
 			selector.remove();
